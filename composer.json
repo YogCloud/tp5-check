@@ -1,0 +1,21 @@
+{
+    "name": "h6play/tp5-check",
+    "description": "h6play/tp5-check",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "h6play",
+            "email": "h6play@163.com"
+        }
+    ],
+    "require": {
+        "topthink/think": ">=5.0",
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "TpCheck\\": "src/"
+        }
+    }
+}
