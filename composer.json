@@ -9,10 +9,7 @@
             "email": "h6play@163.com"
         }
     ],
-    "require": {
-        "topthink/think": ">=5.0",
-        "php": ">=7.0"
-    },
+    "require": {},
     "autoload": {
         "psr-0": {
             "TpCheck\\": "src/"
