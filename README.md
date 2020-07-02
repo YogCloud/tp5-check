@@ -4,6 +4,9 @@
     
 ## 快速开始
 
+* php > 7.0
+* thinkphp > 5.0
+
 ```js
 composer require h6play/tp5-check
 ```
