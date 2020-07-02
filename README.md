@@ -1,6 +1,13 @@
 # TpCheck ThinkPHP 扩展验证类
 
     为了方便写代码我们将封装统一验证类以快速开发
+    
+## 快速开始
+
+```js
+composer require h6play/tp5-check
+```
+    
 ## 过滤器类型
 
 * `普通验证器` 和普通的 ThinkPHP 验证类没多大区别
