@@ -4,7 +4,7 @@
 namespace TpCheck;
 
 
-use app\server\exception\ParamException;
+use TpCheck\ParamException;
 use think\facade\Request;
 
 class Validate extends \think\Validate
@@ -283,6 +283,9 @@ class Validate extends \think\Validate
     protected function array($value, $rule, $data = [], $field = "") {
         if(!is_array($value)) {
             return "{$field}必须是数组";
+        }
+        if(!in_array($rule, ["int", "float", "number"])) {
+            return true;
         }
         foreach ($value as $v) {
             if($rule == "int") {
